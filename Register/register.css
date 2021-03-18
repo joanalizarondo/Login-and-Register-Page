@@ -1,0 +1,105 @@
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.container {
+    background-color: #DBDADA;
+    margin: 210px 20px;
+    padding: 10px 30px 30px;
+    width: 200px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0 10px;
+    margin: 5px 0px;
+    border-style: none;
+}
+
+input::placeholder{
+    padding: 50px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    margin: 20px 0 0;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 25px;
+        padding: 10px 30px 30px;
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 25px;
+        padding: 10px 30px 30px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 170px;
+        padding: 10px 30px 30px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 300px;
+        padding: 10px 30px 30px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 350px;
+        padding: 10px 30px 30px;
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 500px;
+        padding: 10px 30px 30px;
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 1639px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 250px 700px;
+        padding: 10px 30px 30px;
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 2731px) {
+    .container {
+        background-color: #DBDADA;
+        margin: 450px 1150px;
+        padding: 10px 30px 30px;
+        width: 500px;
+        height: 500px;
+    }
+}
